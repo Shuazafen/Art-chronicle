@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'
 
 const Category = () => {
   return (
-    <div className='p-7 w-full h-[630px]'>
+    <div className='p-7 w-full h-[630px] items-center justify-self-center'>
       <h1 className="text-center text-4xl font-semibold">Art Categories</h1>
-      <div className="xl:grid grid-cols-2 grid-rows-1 h-[462px] top-[30px] bottom-[30px] gap-10 items-center md:block md:gap-4 sm:block sm:gap-4 mt-4">
+      <div className="xl:grid grid-cols-2 grid-rows-1  top-[30px]  gap-10 items-center justify-self-center text-center md:block  mt-4">
         {/* modern art */}
         <div className="gap-[23px] w-[604px] min-w-[302px] items-center justify-items-center m-[0 auto] text-center justify-center g-[42px]">
           <Link to='/modern'><img src={img} alt="" className="w-[161px] h-[150px]" /> </Link>  

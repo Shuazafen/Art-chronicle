@@ -10,11 +10,11 @@ const Popular = () => {
       <h1 className="font-black text-[24px] text-center">Popular Art</h1>
       <div className="flex gap-4 justify-self-center text-center items-center">
         <div className="gap-[24px]">
-          <img src={img} alt="" className="w-[640px] h-[330px]" />
+          <img src={img} alt="" className="xl:w-[640px] md:w-[320px] h-[330px]  object-cover" />
             <h1 className="text-white">Flesh and blood</h1>
-          <img src={img1} alt="" className="w-[640px] h-[330px]" />
+          <img src={img1} alt="" className="xl:w-[640px] md:w-[320px] h-[330px]  object-cover" />
         </div>
-        <img src={img2} alt="" className='w-[640px] h-[684px]'/>
+        <img src={img2} alt="" className='xl:w-[640px] md:w-[320px] h-[684px]  object-cover'/>
       </div>
        <img src={img3} alt="" className="w-full h-[346px] object-cover mt-4" />
     </div>
